@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css?family=Overpass:600|Source+Sans+Pro:400,700&display=swap');
+
+//FONT-FAMILY
+$font-overpass: 'Overpass', sans-serif;
+$font-source: 'Source Sans Pro', sans-serif;
+
+//FONT-WEIGHT
+$regular: 400;
+$semi-bold: 600;
+$bold: 700;
+
+
+//FONT-SIZE
+$heading-1-d: 50px;
+$heading-1-t: 42px;
+$heading-1-m: 30px;
+$heading-2-d-t: 42px;
+$heading-2-m: 26px;
+$heading-3-d-t: 26px;
+$heading-3-m: 22px;
+$heading-4-d-t-m: 22px;
+$heading-5-d-t: 18px;
+$heading-5-m: 16px;
+
+
+//COLORS
+$primary-color: #ef6c00;
+$primary-color--light: #fc831f;
+$primary-color--extra-light: #fee6d2;
+$secondary-color: #283593;
+$background-color: #fff;
+
+
+$gray-color--dark: #474747;
+$gray-color: #72787a;
+$gray-color--light: #bebebe;
