@@ -1,0 +1,13 @@
+.banner {
+  padding: 70px 16px;
+  background: url("./assets/imgs/bg-1.jpg") no-repeat center top / cover;
+  text-align: center;
+}
+
+.heading {
+  color: #fff;
+
+  &__desc {
+    margin-bottom: 40px;
+  }
+}

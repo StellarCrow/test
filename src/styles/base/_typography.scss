@@ -1,0 +1,49 @@
+%heading {
+  font-family: $font-overpass;
+  font-weight: $semi-bold;
+}
+
+%p {
+  font-family: $font-source;
+  font-weight: $regular;
+}
+
+h1 {
+  @extend %heading;
+  font-size: 30px;
+}
+
+h2 {
+  @extend %heading;
+  font-size: 26px;
+}
+
+h3 {
+  @extend %heading;
+  font-size: 22px;
+}
+
+h4 {
+  @extend h3;
+}
+
+h5 {
+  font-family: $font-source;
+  font-weight: $regular;
+  font-size: 16px;
+}
+
+.p1 {
+  @extend %p;
+  font-size: 18px;
+}
+
+.p2 {
+  @extend %p;
+  font-size: 16px;
+}
+
+.p3 {
+  @extend %p;
+  font-size: 14px;
+}

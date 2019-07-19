@@ -3,18 +3,22 @@
         <div class="logo">
             <img src="@/assets/logo/logo.svg" alt="Logo">
         </div>
-
-        <nav class="navigation">
+        <div class="header-details">
+          <nav class="navigation">
             <ul>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
+              <li></li>
+              <li></li>
+              <li></li>
+              <li></li>
+              <li></li>
             </ul>
-        </nav>
-        <div class="profile">
+          </nav>
+          <div class="profile">
 
+          </div>
+        </div>
+        <div class="line-menu">
+          <img src="@/assets/icons/line-menu.svg" alt="line-menu">
         </div>
     </header>
 </template>

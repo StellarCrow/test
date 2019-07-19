@@ -1,1 +1,22 @@
+header {
+  background-color: $background-color;
+  padding: 20px 17px;
+  display: flex;
+  justify-content: space-between;
+}
 
+.logo {
+  width: 135px;
+  height: auto;
+}
+
+.header-details {
+  display: none;
+}
+
+.line-menu {
+  & img:hover {
+    cursor: pointer;
+    fill: $secondary-color--hover;
+  }
+}

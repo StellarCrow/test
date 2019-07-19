@@ -1,0 +1,28 @@
+%button {
+  @include border-radius(4px);
+  background: $primary-color;
+  padding: 10px 112px;
+  color: #fff;
+  font-weight: $bold;
+  font-family: $font-source;
+  outline: none;
+  border: none;
+  &:hover {
+    cursor: pointer;
+  }
+}
+
+.button-primary {
+  @extend %button;
+
+  &:hover {
+    background-color: $primary-color--light;
+  }
+}
+
+.button-secondary {
+  color: $primary-color;
+  background: transparent;
+}
+
+
