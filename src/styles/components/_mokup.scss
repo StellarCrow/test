@@ -1,5 +1,6 @@
+/*-------BANNER SECTION---------*/
+
 .banner {
-  padding: 70px 16px;
   background: url("./assets/imgs/bg-1.jpg") no-repeat center top / cover;
   text-align: center;
 }
@@ -7,7 +8,152 @@
 .heading {
   color: #fff;
 
+  &__title {
+    margin-bottom: 20px;
+  }
+
   &__desc {
     margin-bottom: 40px;
+  }
+}
+
+/*-------ABOUT SECTION---------*/
+
+.man-mobile {
+  text-align: center;
+  margin-bottom: 30px;
+  img {
+    width: 220px;
+    height: auto;
+  }
+}
+
+.about {
+  .container {
+    padding-bottom: 0;
+  }
+
+  &__title {
+    margin-bottom: 30px;
+  }
+
+  &__title-small {
+    margin-bottom: 20px;
+  }
+}
+
+.about__text .p2{
+  margin-bottom: 29px;
+}
+
+/*-------RELATIONSHIPS SECTION---------*/
+
+.relationships {
+  &__title {
+    margin-bottom: 34px;
+  }
+}
+
+.skill {
+  margin-bottom: 30px;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+
+  &__image {
+    margin-bottom: 15px;
+    img {
+      width: 90px;
+      height: auto;
+    }
+  }
+
+  &__heading {
+    margin-bottom: 13px;
+  }
+}
+
+/*-------REQUIREMENTS SECTION---------*/
+
+.requirements {
+  background: url("./assets/imgs/bg-2.jpg") no-repeat center top / cover;
+  color: #fff;
+
+  &__heading {
+    margin-bottom: 35px;
+  }
+
+  &__image {
+    margin-bottom: 30px;
+    img {
+      width: 260px;
+      height: auto;
+    }
+  }
+
+  &__text {
+    .p2 {
+      margin-bottom: 28px;
+    }
+
+    .p2:last-child {
+      margin-bottom: 0;
+    }
+  }
+}
+
+/*-------USERS SECTION---------*/
+
+.users {
+  .container {
+    padding-bottom: 0;
+  }
+  &__heading {
+    margin-bottom: 28px;
+  }
+
+  &__warning, &__list {
+    margin-bottom: 30px;
+  }
+}
+
+.user {
+  margin-bottom: 30px;
+
+  &__avatar {
+    margin-bottom: 15px;
+    img {
+      @include border-radius(50%);
+      width: 70px;
+      height: auto;
+    }
+  }
+
+  &__name {
+    margin-bottom: 15px;
+  }
+
+  &__desc {
+    .p3 {
+      margin-bottom: 5px;
+    }
+
+    .p3:last-child {
+      margin-bottom: 0;
+    }
+  }
+}
+
+/*-------REGISTRATION SECTION---------*/
+
+.registration {
+  &__heading {
+    margin-bottom: 19px;
+  }
+
+  &__warning {
+    line-height: 1.3em;
+    margin-bottom: 34px;
   }
 }

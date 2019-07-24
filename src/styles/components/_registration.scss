@@ -1,0 +1,143 @@
+
+fieldset {
+  @include border-radius(4px);
+  border: 1px solid $gray-color--light;
+  padding: 12px 16px 15px;
+}
+
+legend {
+  text-align: left;
+  color: $gray-color--light;
+}
+
+input {
+  border: none;
+  outline: none;
+  font-size: 16px;
+  font-weight: $regular;
+  font-family: $font-source;
+  color: #000;
+  left: 0;
+  width: 100%;
+
+  &::placeholder {
+    color: $gray-color--light;
+    font-weight: $regular;
+  }
+}
+
+select {
+  @include border-radius(4px);
+  border: 1px solid $gray-color--light;
+  padding: 15px 16px;
+  color: #000;
+  font-size: 16px;
+  font-family: $font-source;
+  width: 100%;
+  outline: none;
+
+  &:focus {
+    color: $primary-color;
+    border: none;
+    -webkit-box-shadow: 0px 4px 13px -2px rgba(140, 140, 140, 1);
+    -moz-box-shadow: 0px 4px 13px -2px rgba(140, 140, 140, 1);
+    box-shadow: 0px 4px 13px -2px rgba(140, 140, 140, 1);
+  }
+
+}
+
+.form-group {
+  fieldset {
+    margin: 0 0 30px;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+  margin-bottom: 30px;
+}
+
+.form {
+  &__email {
+    //@include border-radius(4px);
+    //border: 1px solid $gray-color--light;
+    //padding: 15px 16px;
+    //max-height: none;
+  }
+
+  &__upload {
+    display: flex;
+    margin-bottom: 7px;
+  }
+
+  .label-input-file {
+    @include border-left-radius(4px);
+    border: 1px solid $gray-color--light;
+    border-right: none;
+    padding: 17px 17px 15px;
+    color: $gray-color--light;
+    line-height: 2em;
+    width: 80%;
+  }
+
+  &__upload-image {
+    @include border-right-radius(4px);
+    border: 2px solid $primary-color;
+    padding: 17px 17px 15px;
+
+    &:hover {
+      cursor: pointer;
+    }
+  }
+
+  &__tip {
+    //font-family: $font-source;
+    //font-size: 12px;
+    color: $gray-color--light;
+    margin-left: 19px;
+  }
+}
+
+
+.dropdown__select {
+  @include border-radius(4px);
+  border: 1px solid $gray-color--light;
+  padding: 15px 16px;
+  margin-bottom: 30px;
+  color: #000;
+  font-size: 16px;
+  font-family: $font-source;
+  display: flex;
+  justify-content: space-between;
+
+  &:hover {
+    cursor: pointer;
+  }
+}
+
+.dropdown__options {
+  @include border-radius(4px);
+  @include box-shadow(0 0 5px rgba(0,0,0,.25));
+  display: none;
+
+  a {
+    display: block;
+    text-decoration: none;
+    color: $gray-color--dark;
+    padding: 15px 16px;
+
+    &:hover {
+      background-color: $primary-color--extra-light;
+      cursor: pointer;
+    }
+  }
+}
+
+input[type="file"] {
+  width: 0.1px;
+  height: 0.1px;
+  opacity: 0;
+  overflow: hidden;
+  position: absolute;
+  z-index: -1;
+}
