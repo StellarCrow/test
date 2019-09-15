@@ -6,7 +6,9 @@
 %p {
   font-family: $font-source;
   font-weight: $regular;
+  line-height: 22px;
 }
+
 h1, h2, h3, h4, h5, h6 {
   margin: 0;
   padding: 0;
@@ -14,27 +16,45 @@ h1, h2, h3, h4, h5, h6 {
 
 h1 {
   @extend %heading;
-  font-size: 30px;
+  font-size: $heading-1-m;
+  line-height: 34px;
+
+  @media (min-width: 768px) {
+    font-size: $heading-1-t;
+  }
 }
 
 h2 {
   @extend %heading;
-  font-size: 26px;
+  font-size: $heading-2-m;
+
+  @media (min-width: 768px) {
+    font-size: $heading-2-d-t;
+  }
 }
 
 h3 {
   @extend %heading;
-  font-size: 22px;
+  font-size: $heading-3-m;
+
+  @media (min-width: 768px) {
+    font-size: $heading-3-d-t;
+  }
 }
 
 h4 {
   @extend h3;
+  font-size: $heading-4-d-t-m;
 }
 
 h5 {
   font-family: $font-source;
   font-weight: $regular;
-  font-size: 16px;
+  font-size: $heading-5-m;
+
+  @media (min-width: 768px) {
+    font-size: $heading-5-d-t;
+  }
 }
 
 .p1 {
@@ -45,6 +65,11 @@ h5 {
 .p2 {
   @extend %p;
   font-size: 16px;
+
+  @media (min-width: 768px) {
+    font-size: 18px;
+    line-height: 24px;
+  }
 }
 
 .p3 {

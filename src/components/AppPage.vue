@@ -7,8 +7,13 @@
           <div class="heading__title">
             <h1>Test assignment for Frontend Developer position</h1>
           </div>
-          <div class="heading__desc p2">
+          <div class="heading__desc heading__desc-small p2">
             We kindly remind you that your test assignment should be submitted as a link to github/bitbucket repository.
+          </div>
+          <div class="heading__desc heading__desc-large p2">
+            We kindly remind you that your test assignment should be submitted as a link to github/bitbucket repository.
+            Please be patient, we consider and respond to every application that meets minimum requirements. We look
+            forward to your submission. Good luck!
           </div>
           <div class="heading__button">
             <button class="button-primary">Sign Up</button>
@@ -16,28 +21,31 @@
         </div>
       </div>
     </section>
-    <section class="about text-center">
+    <section class="about">
       <div class="container">
-        <div class="about__title text-center">
+        <div class="about__title">
           <h2>Let's get acquainted</h2>
         </div>
-        <div>
+        <div class="about__content">
           <div class="man-mobile">
             <img src="../assets/imgs/man-mobile.svg" alt="man-mobile">
           </div>
           <div class="about__text">
             <div class="about__title-small">
-              <h3>I am cool frontend developer</h3>
+              <h3>I am cool frontend
+                <br>developer</h3>
             </div>
-            <div class="p2">
-              When real users have a slow experience on mobile, they're much less likely to find what they are looking
-              for
-              or purchase from you in the future. For many sites this equates to a huge missed opportunity, especially
-              when more than half of visits are abandoned if a mobile page takes over 3 seconds to load.
-            </div>
-            <div class="p2">
-              Last week, Google Search and Ads teams announced two new speed initiatives to help improve user-experience
-              on the web.
+            <div class="about__text-block">
+              <div class="p2">
+                When real users have a slow experience on mobile, they're much less likely to find what they are looking
+                for
+                or purchase from you in the future. For many sites this equates to a huge missed opportunity, especially
+                when more than half of visits are abandoned if a mobile page takes over 3 seconds to load.
+              </div>
+              <div class="p2">
+                Last week, Google Search and Ads teams announced two new speed initiatives to help improve user-experience
+                on the web.
+              </div>
             </div>
             <button class="button-text">Sign Up</button>
           </div>
@@ -45,7 +53,7 @@
       </div>
     </section>
     <section class="relationships">
-      <div class="container text-center">
+      <div class="container">
         <div class="relationships__title">
           <h2>About my relationships with web-development</h2>
         </div>
@@ -59,7 +67,7 @@
             </div>
             <div class="skill__desc p2">
               Hypertext Markup Language (HTML)
-              is the standard markup language for creating web pages and web applications.
+              <br>is the standard markup language for creating web pages and web applications.
             </div>
           </div>
           <div class="skill">
@@ -83,7 +91,9 @@
             </div>
             <div class="skill__desc p2">
               JavaScript is a high-level, interpreted programming language. It is a language which is also characterized
-              as dynamic, weakly typed, prototype-based and multi-paradigm.
+              as dynamic,
+              weakly typed, prototype-based and
+              <br>multi-paradigm.
             </div>
           </div>
         </div>
@@ -104,15 +114,17 @@
             2010 and as of this month (July 2018), page speed will be a ranking factor for mobile searches too.
           </div>
           <div class="p2">
-            If you're a developer working on a site, now is a good time to evaluate your performance using our speed
+            If you're a developer working on a site,now
+            <br>is a good time to evaluate your performance using our speed
             tools. Think about how performance affects the user experience of your pages and consider measuring a
-            variety of real-world user-centric performance metrics.
+            variety of real-world
+            <br>user-centric performance metrics.
           </div>
           <div class="p2">
             Are you shipping too much JavaScript? Too many images? Images and JavaScript are the most significant
             contributors to the page weight that affect page load time based on data from HTTP Archive and the Chrome
             User Experience Report - our public dataset for key UX metrics as experienced by Chrome users under
-            real-world conditions.
+            <br>real-world conditions.
           </div>
         </div>
       </div>
@@ -124,7 +136,7 @@
         </div>
         <div class="users__warning p2">
           Attention! Sorting users
-          by registration date
+          <br>by registration date
         </div>
         <div class="users__list">
           <div class="user">
@@ -148,7 +160,7 @@
             </div>
             <div class="user__name">
               <h3>Adolph Blaine Charles
-                David Earl</h3>
+                <br>David Earl</h3>
             </div>
             <div class="user__desc">
               <div class="p3">
@@ -164,7 +176,7 @@
             </div>
             <div class="user__name">
               <h3>Liamgrievescasey
-                Smith Wiam</h3>
+                <br>Smith Wiam</h3>
             </div>
             <div class="user__desc">
               <div class="p3">

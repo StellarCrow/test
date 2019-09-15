@@ -3,17 +3,50 @@
 .banner {
   background: url("./assets/imgs/bg-1.jpg") no-repeat center top / cover;
   text-align: center;
+  background-position: 30%;
+
+  .container {
+    padding-top: 66px;
+  }
+
+  @media (min-width: $tablet-min-width) {
+    text-align: left;
+  }
 }
 
 .heading {
   color: #fff;
 
   &__title {
-    margin-bottom: 20px;
+    margin-bottom: 11px;
   }
 
   &__desc {
-    margin-bottom: 40px;
+    margin-bottom: 39px;
+  }
+
+  &__desc-small {
+    display: inline-block;
+  }
+
+  &__desc-large {
+    display: none;
+  }
+
+  @media (min-width: $tablet-min-width) {
+    flex: 0 0 55%;
+
+    &__title {
+      margin-bottom: 30px;
+    }
+
+    &__desc-small {
+      display: none;
+    }
+
+    &__desc-large {
+      display: inline-block;
+    }
   }
 }
 
@@ -21,56 +54,111 @@
 
 .man-mobile {
   text-align: center;
-  margin-bottom: 30px;
+  margin-bottom: 24px;
   img {
     width: 220px;
     height: auto;
+    display: inline-block;
+  }
+
+  @media (min-width: $tablet-min-width) {
+    margin-right: 30px;
   }
 }
 
 .about {
+  text-align: center;
+
   .container {
     padding-bottom: 0;
   }
 
   &__title {
-    margin-bottom: 30px;
+    margin-bottom: 26px;
   }
 
   &__title-small {
-    margin-bottom: 20px;
+    margin-bottom: 14px;
   }
-}
 
-.about__text .p2{
-  margin-bottom: 29px;
+  &__text-block {
+    margin-bottom: 15px;
+  }
+
+  &__text-block div{
+    margin-bottom: 22px;
+    color: $text-color;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+
+  &__content {
+    display: flex;
+    flex-direction: column;
+  }
+
+  @media (min-width: $tablet-min-width) {
+    text-align: left;
+    &__title {
+      margin-bottom: 50px;
+      flex: 0 0 100%;
+      text-align: center;
+    }
+
+    &__content {
+      flex-direction: row;
+    }
+  }
 }
 
 /*-------RELATIONSHIPS SECTION---------*/
 
 .relationships {
+  text-align: center;
   &__title {
     margin-bottom: 34px;
+  }
+
+  .container {
+    padding-bottom: 69px;
+  }
+
+  @media (min-width: $tablet-min-width) {
+    text-align: left;
+    &__title {
+      flex: 0 0 100%;
+      text-align: center;
+      margin-bottom: 60px;
+    }
   }
 }
 
 .skill {
-  margin-bottom: 30px;
+  margin-bottom: 29px;
 
   &:last-child {
     margin-bottom: 0;
+    .skill__image {
+      margin-bottom: 14px;
+      img {
+        height: 103px;
+      }
+    }
   }
 
   &__image {
-    margin-bottom: 15px;
+    margin-bottom: 12px;
     img {
       width: 90px;
-      height: auto;
+      height: 99px;
+      margin: 0 auto;
     }
   }
 
   &__heading {
-    margin-bottom: 13px;
+    margin-bottom: 3px;
   }
 }
 
@@ -79,22 +167,26 @@
 .requirements {
   background: url("./assets/imgs/bg-2.jpg") no-repeat center top / cover;
   color: #fff;
+  .container {
+    padding-bottom: 63px;
+  }
 
   &__heading {
-    margin-bottom: 35px;
+    margin-bottom: 25px;
   }
 
   &__image {
-    margin-bottom: 30px;
+    margin-bottom: 23px;
     img {
-      width: 260px;
+      width: 259px;
       height: auto;
+      margin: 0 auto;
     }
   }
 
   &__text {
     .p2 {
-      margin-bottom: 28px;
+      margin-bottom: 23px;
     }
 
     .p2:last-child {
@@ -110,33 +202,43 @@
     padding-bottom: 0;
   }
   &__heading {
-    margin-bottom: 28px;
+    margin-bottom: 13px;
   }
 
-  &__warning, &__list {
+  &__warning {
     margin-bottom: 30px;
+  }
+
+  &__list {
+    margin-bottom: 25px;
   }
 }
 
 .user {
-  margin-bottom: 30px;
+  margin-bottom: 32px;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
 
   &__avatar {
-    margin-bottom: 15px;
+    margin-bottom: 13px;
     img {
       @include border-radius(50%);
       width: 70px;
-      height: auto;
+      height: 70px;
+      margin: 0 auto;
     }
   }
 
   &__name {
-    margin-bottom: 15px;
+    margin-bottom: 7px;
   }
 
   &__desc {
     .p3 {
       margin-bottom: 5px;
+      line-height: 1em;
     }
 
     .p3:last-child {
@@ -149,11 +251,11 @@
 
 .registration {
   &__heading {
-    margin-bottom: 19px;
+    margin-bottom: 10px;
   }
 
   &__warning {
-    line-height: 1.3em;
-    margin-bottom: 34px;
+    line-height: 22px;
+    margin-bottom: 21px;
   }
 }

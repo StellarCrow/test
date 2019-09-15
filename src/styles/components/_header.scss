@@ -1,12 +1,16 @@
 header {
   background-color: $background-color;
-  padding: 20px 17px;
+  padding: 20px 15px 20px 17px;
   display: flex;
   justify-content: space-between;
+
+  @media (min-width: $tablet-min-width) {
+    padding: 20px 24px;
+  }
 }
 
 .logo {
-  width: 135px;
+  width: 134px;
   height: auto;
 }
 

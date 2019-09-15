@@ -1,6 +1,13 @@
 .container {
-  padding: 70px 18px;
+  padding: 69px 16px 72px 16px;
   max-width: 1170px;
+  display: flex;
+  flex-flow: column wrap;
+
+  @media (min-width: $tablet-min-width) {
+    padding: 120px 25px;
+    flex-flow: row wrap;
+  }
 }
 
 .text-center {

@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Overpass:600|Source+Sans+Pro:400,700&display=swap');
 
+//SCREEN-SIZES
+
+$tablet-min-width: 768px;
+
 //FONT-FAMILY
 $font-overpass: 'Overpass', sans-serif;
 $font-source: 'Source Sans Pro', sans-serif;
@@ -30,7 +34,7 @@ $primary-color--extra-light: #fee6d2;
 $secondary-color: #283593;
 $secondary-color--hover: #2638bb;
 $background-color: #fff;
-
+$text-color: #585757;
 
 $gray-color--dark: #474747;
 $gray-color: #72787a;

@@ -1,20 +1,26 @@
 %button {
   @include border-radius(4px);
   background: $primary-color;
-  padding: 10px;
+  padding: 9px 0;
   width: 100%;
   color: #fff;
   font-weight: $bold;
   font-family: $font-source;
+  font-size: 20px;
   outline: none;
   border: none;
   &:hover {
     cursor: pointer;
   }
+
+  @media (min-width: $tablet-min-width) {
+    width: 290px;
+  }
 }
 
 .button-primary {
   @extend %button;
+  line-height: 19px;
 
   &:hover {
     background-color: $primary-color--light;
@@ -37,6 +43,9 @@
   background-color: transparent;
   border: none;
   color: $primary-color;
+  padding: 0;
+  width: auto;
+  font-size: 22px;
 
   &:hover {
     color: $primary-color--light;

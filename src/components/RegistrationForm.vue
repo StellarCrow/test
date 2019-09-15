@@ -18,7 +18,7 @@
       <div class="form__select">
         <div class="dropdown">
           <div class="dropdown__select">
-            <div>Chosen option</div>
+            <div>Select your position</div>
             <div>
               <img src="@/assets/icons/caret-down.svg" alt="caret-down">
             </div>
@@ -39,7 +39,7 @@
       </div>
       <div class="form__tip p4">
         File format jpg up to 5 MB, the minimum size
-        of 70x70px
+        <br>of 70x70px
       </div>
     </div>
     <div class="form__button">
