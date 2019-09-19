@@ -46,24 +46,7 @@ select {
 
 }
 
-.form-group {
-  fieldset {
-    margin-bottom: 25px;
-    padding: 5px 10px 18px 15px;
-    &:last-child {
-      margin-bottom: 0;
-    }
-  }
-  margin-bottom: 35px;
-}
-
 .form {
-  &__email {
-    //@include border-radius(4px);
-    //border: 1px solid $gray-color--light;
-    //padding: 15px 16px;
-    //max-height: none;
-  }
 
   &__upload {
     display: flex;
@@ -91,10 +74,29 @@ select {
   }
 
   &__tip {
-    //font-family: $font-source;
-    //font-size: 12px;
     color: $gray-color--light;
-    margin-left: 19px;
+    margin-left: 18px;
+    line-height: 1.5em;
+  }
+
+  &__button {
+    margin-top:-7px;
+    text-align: center;
+  }
+}
+
+.form-group {
+  margin-bottom: 35px;
+
+  fieldset {
+    margin-bottom: 25px;
+    padding: 5px 10px 18px 15px;
+  }
+
+  @media (min-width: $tablet-min-width) {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
   }
 }
 

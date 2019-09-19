@@ -62,38 +62,44 @@
             <div class="skill__image">
               <img src="../assets/imgs/html.svg" alt="html">
             </div>
-            <div class="skill__heading">
-              <h3>I'm in love with HTML</h3>
-            </div>
-            <div class="skill__desc p2">
-              Hypertext Markup Language (HTML)
-              <br>is the standard markup language for creating web pages and web applications.
+            <div>
+              <div class="skill__heading">
+                <h3>I'm in love with HTML</h3>
+              </div>
+              <div class="skill__desc p2">
+                Hypertext Markup Language (HTML)
+                is the standard markup language for creating web pages and web applications.
+              </div>
             </div>
           </div>
           <div class="skill">
             <div class="skill__image">
               <img src="../assets/imgs/css.svg" alt="css">
             </div>
-            <div class="skill__heading">
-              <h3>CSS is my best friend</h3>
-            </div>
-            <div class="skill__desc p2">
-              Cascading Style Sheets (CSS) is a style sheet language used for describing the presentation of a document
-              written in a markup language like HTML.
+            <div>
+              <div class="skill__heading">
+                <h3>CSS is my best friend</h3>
+              </div>
+              <div class="skill__desc p2">
+                Cascading Style Sheets (CSS) is a style sheet language used for describing the presentation of a document
+                written in a markup language like HTML.
+              </div>
             </div>
           </div>
           <div class="skill">
             <div class="skill__image">
               <img src="../assets/imgs/javascript.svg" alt="js">
             </div>
-            <div class="skill__heading">
-              <h3>JavaScript is my passion</h3>
-            </div>
-            <div class="skill__desc p2">
-              JavaScript is a high-level, interpreted programming language. It is a language which is also characterized
-              as dynamic,
-              weakly typed, prototype-based and
-              <br>multi-paradigm.
+            <div>
+              <div class="skill__heading">
+                <h3>JavaScript is my passion</h3>
+              </div>
+              <div class="skill__desc p2">
+                JavaScript is a high-level, interpreted programming language. It is a language which is also characterized
+                as dynamic,
+                weakly typed, prototype-based and
+                multi-paradigm.
+              </div>
             </div>
           </div>
         </div>
@@ -104,27 +110,29 @@
         <div class="requirements__heading">
           <h2>General requirements for the test task</h2>
         </div>
-        <div class="requirements__image">
-          <img src="../assets/imgs/man-laptop-v1.svg" alt="man-laptop-1">
-        </div>
-        <div class="requirements__text">
-          <div class="p2">
-            Users want to find answers to their questions quickly and data shows that people really care about how
-            quickly their pages load. The Search team announced speed would be a ranking signal for desktop searches in
-            2010 and as of this month (July 2018), page speed will be a ranking factor for mobile searches too.
+        <div class="requirements-flex">
+          <div class="requirements__image">
+            <img src="../assets/imgs/man-laptop-v1.svg" alt="man-laptop-1">
           </div>
-          <div class="p2">
-            If you're a developer working on a site,now
-            <br>is a good time to evaluate your performance using our speed
-            tools. Think about how performance affects the user experience of your pages and consider measuring a
-            variety of real-world
-            <br>user-centric performance metrics.
-          </div>
-          <div class="p2">
-            Are you shipping too much JavaScript? Too many images? Images and JavaScript are the most significant
-            contributors to the page weight that affect page load time based on data from HTTP Archive and the Chrome
-            User Experience Report - our public dataset for key UX metrics as experienced by Chrome users under
-            <br>real-world conditions.
+          <div class="requirements__text">
+            <div class="p2">
+              Users want to find answers to their questions quickly and data shows that people really care about how
+              quickly their pages load. The Search team announced speed would be a ranking signal for desktop searches in
+              2010 and as of this month (July 2018), page speed will be a ranking factor for mobile searches too.
+            </div>
+            <div class="p2">
+              If you're a developer working on a site,now
+              <br>is a good time to evaluate your performance using our speed
+              tools. Think about how performance affects the user experience of your pages and consider measuring a
+              variety of real-world
+              <br>user-centric performance metrics.
+            </div>
+            <div class="p2">
+              Are you shipping too much JavaScript? Too many images? Images and JavaScript are the most significant
+              contributors to the page weight that affect page load time based on data from HTTP Archive and the Chrome
+              User Experience Report - our public dataset for key UX metrics as experienced by Chrome users under
+              real-world conditions.
+            </div>
           </div>
         </div>
       </div>
@@ -134,9 +142,9 @@
         <div class="users__heading">
           <h2>Our cheerful users</h2>
         </div>
-        <div class="users__warning p2">
-          Attention! Sorting users
-          <br>by registration date
+        <div class="users__warning">
+          <h5>Attention! Sorting users
+            by registration date</h5>
         </div>
         <div class="users__list">
           <div class="user">
@@ -197,9 +205,9 @@
         <div class="registration__heading text-center">
           <h2>Register to get a work</h2>
         </div>
-        <div class="registration__warning p2 text-center">
-          Attention! After successful registration and alert, update the list of users
-          <br>in the block from the top
+        <div class="registration__warning text-center">
+          <h5>Attention! After successful registration and alert, update the list of users
+            in the block from the top</h5>
         </div>
         <registration-form></registration-form>
       </div>

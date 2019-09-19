@@ -34,7 +34,10 @@
   }
 
   @media (min-width: $tablet-min-width) {
-    flex: 0 0 55%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 55%;
 
     &__title {
       margin-bottom: 30px;
@@ -129,9 +132,17 @@
     text-align: left;
     &__title {
       flex: 0 0 100%;
+      box-sizing: border-box;
       text-align: center;
       margin-bottom: 60px;
+      padding: 0 90px;
     }
+  }
+}
+
+.skills {
+  @media (min-width: $tablet-min-width) {
+    padding: 0 40px;
   }
 }
 
@@ -148,6 +159,10 @@
     }
   }
 
+  &__desc {
+    color: $text-color;
+  }
+
   &__image {
     margin-bottom: 12px;
     img {
@@ -159,6 +174,15 @@
 
   &__heading {
     margin-bottom: 3px;
+  }
+
+  @media (min-width: $tablet-min-width) {
+    display: flex;
+    flex-direction: row;
+
+    &__image {
+      padding: 0 35px;
+    }
   }
 }
 
@@ -193,6 +217,28 @@
       margin-bottom: 0;
     }
   }
+
+  @media (min-width: $tablet-min-width) {
+    &__heading {
+      box-sizing: border-box;
+      padding: 0 140px;
+    }
+
+    &-flex {
+      display: flex;
+      flex-direction: row-reverse;
+      justify-content: space-between;
+    }
+
+    &__text {
+      text-align: left;
+      width: 50%;
+    }
+
+    &__image img {
+      content: url("./assets/imgs/man-laptop-v2.svg");
+    }
+  }
 }
 
 /*-------USERS SECTION---------*/
@@ -211,6 +257,11 @@
 
   &__list {
     margin-bottom: 25px;
+
+    @media (min-width: $tablet-min-width) {
+      display: flex;
+      flex-flow: row wrap;
+    }
   }
 }
 
@@ -257,5 +308,12 @@
   &__warning {
     line-height: 22px;
     margin-bottom: 21px;
+  }
+
+  @media (min-width: $tablet-min-width) {
+    &__warning {
+      box-sizing: border-box;
+      padding: 0 170px;
+    }
   }
 }

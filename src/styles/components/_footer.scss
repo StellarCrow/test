@@ -7,11 +7,11 @@
   }
 
   &__logo {
-    text-align: center;
-    margin-bottom: 20px;
+    margin-bottom: 15px;
     img {
       width: 135px;
       height: auto;
+      margin: 0 auto;
     }
   }
 
@@ -20,7 +20,8 @@
     color: #fff;
 
     li {
-      margin-bottom: 13px;
+      @include text-crop();
+      margin-bottom: 10px;
     }
 
     li:last-child {
@@ -42,28 +43,94 @@
     padding: 30px 0;
   }
 
-  &__details {
+  &__contacts {
     text-align: center;
     color: #fff;
     margin-bottom: 30px;
 
     .p1 {
-      margin-bottom: 19px;
+      margin-bottom: 12px;
       &:last-child {
         margin-bottom: 0;
       }
     }
+  }
 
+  &__links {
+    display: none;
+  }
+
+  @media (min-width: 768px) {
+    &__top {
+      display: flex;
+      flex-flow: row wrap;
+      justify-content: space-between;
+    }
+
+    &__logo {
+      margin-bottom: 0;
+    }
+
+    &__navigation {
+      display: flex;
+      align-items: center;
+
+      li {
+        margin-left: 30px;
+        margin-bottom: 0;
+      }
+
+      li:first-child {
+        margin-left: 0;
+      }
+    }
+
+    &__bottom {
+      padding: 30px 25px;
+    }
+
+    &__details {
+      display: flex;
+      flex-flow: row wrap;
+      justify-content: space-between;
+      margin-bottom: 30px;
+    }
+
+    &__contacts {
+      text-align: left;
+      margin-bottom: 0;
+    }
+
+    &__links {
+      display: block;
+      color: #ffffff;
+      text-align: right;
+
+      ul {
+        display: inline-block;
+        margin-right: 60px;
+        &:last-child {
+          margin-right: 0;
+        }
+      }
+
+      li {
+        margin-bottom: 10px;
+        &:last-child {
+          margin-bottom: 0;
+        }
+      }
+    }
   }
 }
 
 
 .socials {
-  margin-bottom: 19px;
 
   &__list {
     display: flex;
     justify-content: center;
+    margin-bottom: 10px;
   }
   &__icon {
     width: 26px;
@@ -93,6 +160,13 @@
 
   &__icon-pin {
     background: url("./assets/icons/pinterest.svg") no-repeat center top / cover;
+  }
+
+  @media (min-width: 768px) {
+    display: flex;
+    flex-flow: row-reverse wrap;
+    justify-content: space-between;
+    align-content: center;
   }
 }
 

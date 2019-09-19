@@ -32,6 +32,7 @@
   color: $primary-color;
   background: transparent;
   border: 2px solid $primary-color;
+  padding: 8px 0 10px 0;
 
   &:hover {
     background: $primary-color--extra-light;

@@ -36,10 +36,10 @@
         <label for="input-file" class="form__upload-image">
           <img src="@/assets/icons/upload.svg" alt="upload-icon">
         </label>
-      </div>
-      <div class="form__tip p4">
-        File format jpg up to 5 MB, the minimum size
-        <br>of 70x70px
+        <div class="form__tip p4">
+          File format jpg up to 5 MB, the minimum size
+          <br>of 70x70px
+        </div>
       </div>
     </div>
     <div class="form__button">

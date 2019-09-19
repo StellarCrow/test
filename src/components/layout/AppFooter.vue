@@ -4,7 +4,7 @@
       <div class="footer__logo">
         <img src="@/assets/logo/logo-white.svg" alt="logo">
       </div>
-      <div>
+      <!--<div>-->
         <ul class="footer__navigation">
           <li class="footer__navigation-item p2">
             <a href="#">About me</a>
@@ -22,14 +22,43 @@
             <a href="#">Sign Up</a>
           </li>
         </ul>
-      </div>
+      <!--</div>-->
     </div>
     <div class="footer__bottom">
       <div class="footer__details">
-        <div class="p1">work.of.future@gmail.com</div>
-        <div class="p1">+38 (050) 789 24 98</div>
-        <div class="p1">+38 (095) 556 08 45</div>
+        <div class="footer__contacts">
+          <div class="p1">work.of.future@gmail.com</div>
+          <div class="p1">+38 (050) 789 24 98</div>
+          <div class="p1">+38 (095) 556 08 45</div>
+        </div>
+        <div class="footer__links">
+          <ul>
+            <li>News</li>
+            <li>Blog</li>
+            <li>Partners</li>
+            <li>Shop</li>
+          </ul>
+          <ul>
+            <li>Overview</li>
+            <li>Design</li>
+            <li>Code</li>
+            <li>Collaborate</li>
+          </ul>
+          <ul>
+            <li>Tutorials</li>
+            <li>Resources</li>
+            <li>Guides</li>
+            <li>Examples</li>
+          </ul>
+          <ul>
+            <li>FAQ</li>
+            <li>Terms</li>
+            <li>Conditions</li>
+            <li>Help</li>
+          </ul>
+        </div>
       </div>
+
       <div class="socials">
         <ul class="socials__list">
           <li class="socials__icon socials__icon-fb"></li>
@@ -38,9 +67,9 @@
           <li class="socials__icon socials__icon-tw"></li>
           <li class="socials__icon socials__icon-pin"></li>
         </ul>
-      </div>
-      <div class="copyright p4">
-        © abz.agency specially for the test task
+        <div class="copyright p4">
+          © abz.agency specially for the test task
+        </div>
       </div>
     </div>
   </footer>
