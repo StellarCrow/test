@@ -7,19 +7,19 @@
       <!--<div>-->
         <ul class="footer__navigation">
           <li class="footer__navigation-item p2">
-            <a href="#">About me</a>
+            <a href="#about">About me</a>
           </li>
           <li class="footer__navigation-item p2">
-            <a href="#">Relationships</a>
+            <a href="#relationships">Relationships</a>
           </li>
           <li class="footer__navigation-item p2">
-            <a href="#">Requirements</a>
+            <a href="#requirements">Requirements</a>
           </li>
           <li class="footer__navigation-item p2">
-            <a href="#">Users</a>
+            <a href="#users">Users</a>
           </li>
           <li class="footer__navigation-item p2">
-            <a href="#">Sign Up</a>
+            <a href="#signUp">Sign Up</a>
           </li>
         </ul>
       <!--</div>-->
@@ -33,28 +33,28 @@
         </div>
         <div class="footer__links">
           <ul>
-            <li>News</li>
-            <li>Blog</li>
-            <li>Partners</li>
-            <li>Shop</li>
+            <li><a href="#">News</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Partners</a></li>
+            <li><a href="#">Shop</a></li>
           </ul>
           <ul>
-            <li>Overview</li>
-            <li>Design</li>
-            <li>Code</li>
-            <li>Collaborate</li>
+            <li><a href="#">Overview</a></li>
+            <li><a href="#">Design</a></li>
+            <li><a href="#">Code</a></li>
+            <li><a href="#">Collaborate</a></li>
           </ul>
           <ul>
-            <li>Tutorials</li>
-            <li>Resources</li>
-            <li>Guides</li>
-            <li>Examples</li>
+            <li><a href="#">Tutorials</a></li>
+            <li><a href="#">Resources</a></li>
+            <li><a href="#">Guides</a></li>
+            <li><a href="#">Examples</a></li>
           </ul>
           <ul>
-            <li>FAQ</li>
-            <li>Terms</li>
-            <li>Conditions</li>
-            <li>Help</li>
+            <li><a href="#">FAQ</a></li>
+            <li><a href="#">Terms</a></li>
+            <li><a href="#">Conditions</a></li>
+            <li><a href="#">Help</a></li>
           </ul>
         </div>
       </div>

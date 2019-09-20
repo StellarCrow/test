@@ -22,6 +22,10 @@ h1 {
   @media (min-width: 768px) {
     font-size: $heading-1-t;
   }
+
+  @media (min-width: 1024px) {
+    font-size: $heading-1-d;
+  }
 }
 
 h2 {
@@ -69,6 +73,7 @@ h5 {
   @media (min-width: 768px) {
     line-height: 24px;
   }
+
 }
 
 .p3 {

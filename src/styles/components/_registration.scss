@@ -1,9 +1,9 @@
 
-fieldset {
-  @include border-radius(4px);
-  border: 1px solid $gray-color--light;
-  padding: 12px 16px 15px;
-}
+//fieldset {
+//  @include border-radius(4px);
+//  border: 1px solid $gray-color--light;
+//  padding: 12px 16px 15px;
+//}
 
 legend {
   text-align: left;
@@ -89,14 +89,24 @@ select {
   margin-bottom: 35px;
 
   fieldset {
+    @include border-radius(4px);
+    border: 1px solid $gray-color--light;
     margin-bottom: 25px;
     padding: 5px 10px 18px 15px;
   }
 
   @media (min-width: $tablet-min-width) {
     display: flex;
-    flex-flow: row wrap;
+    flex-flow: row nowrap;
     justify-content: space-between;
+
+    fieldset {
+      width: 100%;
+      margin-right: 30px;
+      &:last-child {
+        margin-right: 0;
+      }
+    }
   }
 }
 

@@ -21,7 +21,7 @@
         </div>
       </div>
     </section>
-    <section class="about">
+    <section class="about" id="about">
       <div class="container">
         <div class="about__title">
           <h2>Let's get acquainted</h2>
@@ -32,8 +32,7 @@
           </div>
           <div class="about__text">
             <div class="about__title-small">
-              <h3>I am cool frontend
-                <br>developer</h3>
+              <h3>I am cool frontend developer</h3>
             </div>
             <div class="about__text-block">
               <div class="p2">
@@ -52,7 +51,7 @@
         </div>
       </div>
     </section>
-    <section class="relationships">
+    <section class="relationships" id="relationships">
       <div class="container">
         <div class="relationships__title">
           <h2>About my relationships with web-development</h2>
@@ -105,7 +104,7 @@
         </div>
       </div>
     </section>
-    <section class="requirements">
+    <section class="requirements" id="requirements">
       <div class="container text-center">
         <div class="requirements__heading">
           <h2>General requirements for the test task</h2>
@@ -137,7 +136,7 @@
         </div>
       </div>
     </section>
-    <section class="users">
+    <section class="users" id="users">
       <div class="container text-center">
         <div class="users__heading">
           <h2>Our cheerful users</h2>
@@ -200,7 +199,7 @@
         </div>
       </div>
     </section>
-    <section class="registration">
+    <section class="registration" id="signUp">
       <div class="container">
         <div class="registration__heading text-center">
           <h2>Register to get a work</h2>

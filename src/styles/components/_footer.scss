@@ -103,7 +103,6 @@
 
     &__links {
       display: block;
-      color: #ffffff;
       text-align: right;
 
       ul {
@@ -118,6 +117,14 @@
         margin-bottom: 10px;
         &:last-child {
           margin-bottom: 0;
+        }
+      }
+
+      li a{
+        color: #fff;
+
+        &:hover {
+          color: $primary-color;
         }
       }
     }

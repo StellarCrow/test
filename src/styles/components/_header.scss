@@ -3,6 +3,7 @@ header {
   padding: 20px 15px 20px 17px;
   display: flex;
   justify-content: space-between;
+  align-items: center;
 
   @media (min-width: $tablet-min-width) {
     padding: 20px 24px;
@@ -16,11 +17,61 @@ header {
 
 .header-details {
   display: none;
+
+  @media (min-width: $desktop-min-width) {
+    display: flex;
+    align-items: center;
+
+    .navigation {
+      margin-right: 70px;
+    }
+
+    ul {
+      display: flex;
+      justify-content: space-between;
+      font-family: $font-source;
+      font-size: 16px;
+    }
+
+    li {
+      margin-right: 30px;
+      &:last-child {
+        margin-right: 0;
+      }
+    }
+  }
+}
+
+.profile {
+  display: flex;
+  flex-flow: row;
+  align-items: center;
+  text-align: right;
+
+  &__name {
+    @extend .p3;
+  }
+
+  &__email {
+    @extend .p4;
+    color: #8d8c8c;
+  }
+
+  &__avatar img {
+    @include border-radius(50%);
+    width: 40px;
+    height: auto;
+    margin: 0 12px;
+  }
 }
 
 .line-menu {
   & img:hover {
     cursor: pointer;
     fill: $secondary-color--hover;
+  }
+
+  @media (min-width: $desktop-min-width) {
+    display: none;
   }
 }

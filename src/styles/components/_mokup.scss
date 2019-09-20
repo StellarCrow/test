@@ -49,6 +49,14 @@
 
     &__desc-large {
       display: inline-block;
+      font-size: 18px;
+    }
+  }
+
+  @media (min-width: $desktop-min-width) {
+    &__desc-large {
+      width: 85%;
+      font-size: 20px;
     }
   }
 }
@@ -67,8 +75,15 @@
   @media (min-width: $tablet-min-width) {
     margin-right: 30px;
   }
+
+  @media (min-width: $desktop-min-width) {
+    img {
+      width: 290px;
+    }
+  }
 }
 
+//----TEXT----
 .about {
   text-align: center;
 
@@ -104,6 +119,7 @@
 
   @media (min-width: $tablet-min-width) {
     text-align: left;
+
     &__title {
       margin-bottom: 50px;
       flex: 0 0 100%;
@@ -138,11 +154,24 @@
       padding: 0 90px;
     }
   }
+
+  @media (min-width: $desktop-min-width) {
+    &__title {
+      padding: 0 180px;
+    }
+  }
 }
 
 .skills {
   @media (min-width: $tablet-min-width) {
     padding: 0 40px;
+  }
+
+  @media (min-width: $desktop-min-width) {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    padding: 0;
   }
 }
 
@@ -151,12 +180,6 @@
 
   &:last-child {
     margin-bottom: 0;
-    .skill__image {
-      margin-bottom: 14px;
-      img {
-        height: 103px;
-      }
-    }
   }
 
   &__desc {
@@ -182,6 +205,29 @@
 
     &__image {
       padding: 0 35px;
+    }
+
+    &__desc {
+      width: 460px;
+    }
+  }
+
+  @media (min-width: $desktop-min-width) {
+    display: block;
+
+
+    &__image {
+      margin-bottom: 30px;
+      padding: 0;
+      img {
+        height: 110px;
+        width: auto;
+        margin: 0;
+      }
+    }
+
+    &__desc {
+      width: 275px;
     }
   }
 }
@@ -237,6 +283,24 @@
 
     &__image img {
       content: url("./assets/imgs/man-laptop-v2.svg");
+      width: 345px;
+    }
+  }
+
+  @media (min-width: $desktop-min-width) {
+    &__heading {
+      padding: 0;
+      margin-bottom: 50px;
+    }
+
+    &__image img {
+      content: url("./assets/imgs/man-laptop-v1.svg");
+      width: 430px;
+      height: auto;
+    }
+
+    &__text .p2 {
+      line-height: 22px;
     }
   }
 }
@@ -261,6 +325,7 @@
     @media (min-width: $tablet-min-width) {
       display: flex;
       flex-flow: row wrap;
+      justify-content: space-between;
     }
   }
 }
