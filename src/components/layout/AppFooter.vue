@@ -1,6 +1,6 @@
 <template>
   <footer class="footer">
-    <div class="footer__top">
+    <div class="footer__top container">
       <div class="footer__logo">
         <img src="@/assets/logo/logo-white.svg" alt="logo">
       </div>
@@ -24,7 +24,7 @@
         </ul>
       <!--</div>-->
     </div>
-    <div class="footer__bottom">
+    <div class="footer__bottom container">
       <div class="footer__details">
         <div class="footer__contacts">
           <div class="p1">work.of.future@gmail.com</div>
@@ -61,11 +61,11 @@
 
       <div class="socials">
         <ul class="socials__list">
-          <li class="socials__icon socials__icon-fb"></li>
-          <li class="socials__icon socials__icon-in"></li>
-          <li class="socials__icon socials__icon-inst"></li>
-          <li class="socials__icon socials__icon-tw"></li>
-          <li class="socials__icon socials__icon-pin"></li>
+          <li><a href="#"><span class="icon icon-white icon-fb"></span></a></li>
+          <li><a href="#"><span class="icon icon-white icon-in"></span></a></li>
+          <li><a href="#"><span class="icon icon-white icon-inst"></span></a></li>
+          <li><a href="#"><span class="icon icon-white icon-tw"></span></a></li>
+          <li><a href="#"><span class="icon icon-white icon-pin"></span></a></li>
         </ul>
         <div class="copyright p4">
           © abz.agency specially for the test task

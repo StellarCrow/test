@@ -65,3 +65,62 @@ button:disabled {
 }
 
 
+.icon {
+  height: 20px;
+  width: 24px;
+  display: inline-block;
+  mask-size: cover;
+
+  &:hover {
+    cursor: pointer;
+  }
+}
+
+.icon-blue {
+  background: $secondary-color;
+  &:hover {
+    background: $secondary-color--hover;
+  }
+}
+
+.icon-white {
+  @include transition(0.3s);
+  height: 26px;
+  width: 26px;
+  background: #fff;
+  &:hover {
+    background: $primary-color;
+  }
+}
+
+.icon-sign-out {
+  mask: url("./assets/icons/sign-out.svg");
+}
+
+.icon-line-menu {
+  mask: url("./assets/icons/line-menu.svg");
+  height: 22px;
+  width: 23px;
+}
+
+.icon-fb {
+  mask: url("./assets/icons/facebook.svg");
+}
+
+.icon-in {
+  mask: url("./assets/icons/linkedin.svg");
+}
+
+.icon-inst {
+  mask: url("./assets/icons/instagram.svg");
+}
+
+.icon-tw {
+  mask: url("./assets/icons/twitter.svg");
+}
+
+.icon-pin {
+  mask: url("./assets/icons/pinterest.svg");
+}
+
+

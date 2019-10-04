@@ -1,5 +1,13 @@
 @include link(#000, #000, $primary-color, $primary-color);
 
+body {
+  padding-top: 62px;
+
+  @media (min-width: $desktop-min-width) {
+    padding-top: 83px;
+  }
+}
+
 a {
   @include transition(0.3s);
 

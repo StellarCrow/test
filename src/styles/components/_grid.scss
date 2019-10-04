@@ -3,6 +3,7 @@
   max-width: 1170px;
   display: flex;
   flex-flow: column wrap;
+  margin: 0 auto;
 
   @media (min-width: $tablet-min-width) {
     padding: 120px 25px;

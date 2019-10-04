@@ -16,7 +16,7 @@
             forward to your submission. Good luck!
           </div>
           <div class="heading__button">
-            <button class="button-primary">Sign Up</button>
+            <button class="button-primary" onclick="window.location.href = '#signUp'">Sign Up</button>
           </div>
         </div>
       </div>
@@ -46,7 +46,7 @@
                 on the web.
               </div>
             </div>
-            <button class="button-text">Sign Up</button>
+            <button class="button-text" onclick="window.location.href = '#signUp'">Sign Up</button>
           </div>
         </div>
       </div>

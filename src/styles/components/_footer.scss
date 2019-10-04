@@ -139,34 +139,12 @@
     justify-content: center;
     margin-bottom: 10px;
   }
-  &__icon {
-    width: 26px;
-    height: 26px;
-    margin-left: 20px;
 
+  li {
+    margin-left: 20px;
     &:first-child {
       margin-left: 0;
     }
-  }
-
-  &__icon-fb {
-    background: url("./assets/icons/facebook.svg") no-repeat center top / cover;
-  }
-
-  &__icon-in {
-    background: url("./assets/icons/linkedin.svg") no-repeat center top / cover;
-  }
-
-  &__icon-inst {
-    background: url("./assets/icons/instagram.svg") no-repeat center top / cover;
-  }
-
-  &__icon-tw {
-    background: url("./assets/icons/twitter.svg") no-repeat center top / cover;
-  }
-
-  &__icon-pin {
-    background: url("./assets/icons/pinterest.svg") no-repeat center top / cover;
   }
 
   @media (min-width: 768px) {
